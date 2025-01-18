@@ -7,6 +7,7 @@
 }
 .header{
     width: 1440px;
+    height: 125px;
     margin-bottom: 20px;
     margin: 0 auto;
     border: 1px solid #BCAAAA;
@@ -17,10 +18,9 @@
 }
 .nav{
    display: flex;
-   margin-top: 45px;
+   margin-top: 20px;
    gap: 120px;
 }
-
 .nav ul{
     display: flex;
     gap: 50px;
@@ -39,9 +39,11 @@
   margin-bottom: -100px;
   margin-left: -110px;
 }
-.li{
+.li_line{
     display: flex;
     align-items: center;
+    position: relative;
+    bottom: 10px;
     gap: 15px;
 }
 .button{
